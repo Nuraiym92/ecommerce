@@ -1,0 +1,41 @@
+.adverd-img{
+    width:50rem;
+    height:40rem;
+    object-fit: cover;
+}
+.adverd-img2{
+    width:70rem;
+    height:40rem;
+    object-fit: cover;
+}
+.adverd{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+   gap:5rem;
+   margin-bottom: 20rem;;
+}
+.adverd-title{
+    font-size:6rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.adverd-btn{
+    margin-left:18rem;
+    padding:1.2rem 4rem;
+    border-radius: 2rem;
+    background-color: white;
+    border:none;
+    font-size:1.5rem;
+}
+.adverd-btn:hover{
+    background-color: #9AD0EC;
+}
+.btn2{
+margin-left:27rem;
+margin-top:2rem;
+}
+.btn1{
+margin-left:18rem;
+margin-top:2rem;
+}

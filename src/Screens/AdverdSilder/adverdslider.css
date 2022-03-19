@@ -1,0 +1,28 @@
+.adverd-slider{
+    background-color: #F7ECDE;
+    height:10rem;
+    align-items: center;
+    color:rgb(226, 86, 21);
+   
+}
+.adverd-slider h3{
+    padding-top:4rem;
+}
+.slider-item{
+    display: flex;
+   align-items: center;
+
+    
+}
+.slider-item img{
+   
+ width:2rem;
+ height:2rem;
+ gap:5rem;
+ margin-top:3rem;   
+margin-left:12rem
+}
+.slider{
+    margin:10rem 0;
+
+}

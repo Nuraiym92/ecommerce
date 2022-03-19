@@ -1,0 +1,83 @@
+.newsletter{
+    display: flex;
+    color:#FFC898;
+  
+}
+.newsletter-title{
+    background-color:#F7ECDE ;
+}
+.newsletter-card1{
+    color:black;
+    width:71rem;
+    background-color:#F7ECDE;
+    color:#FF8E00;
+    font-weight:700;
+}
+.newsletter-card2{
+    background-color:#E9DAC1;
+    width:71rem;
+    
+}
+.email{
+
+    background-color: transparent;
+    width:40rem;
+    height:3.5rem;
+    
+}
+.newsletter-btn{
+   margin-right:25rem;
+   font-size:1.5rem;
+    padding:0.5rem 2rem;
+    border-radius: 0;
+}
+.card2{
+    display:flex;
+}
+.footer-nav{
+    background-color: #66806A;
+    height: 15rem;
+
+}
+.footer{
+    display:block;
+}
+.navigation{
+   width:40%;
+   margin:0 auto;
+    display:flex;
+    list-style: none;
+    color:white;
+    padding-top:6rem;
+    
+}
+.navigation li{
+    margin-left:2rem;
+   
+}
+.navigation-link{
+    color:white;
+    font-size:2rem;
+}
+.logo{
+    font-size:3rem;
+   letter-spacing: 1rem;
+}
+.social-links{
+    background-color:#94B49F;
+    list-style: none;
+  
+    height:8rem;
+   
+
+}
+.social-items{  
+    display:flex;
+    list-style: none;
+    margin: 0 auto;
+  width:13%;
+  padding-top:2rem;
+}
+.social-links li{
+    margin-left:2rem;
+}

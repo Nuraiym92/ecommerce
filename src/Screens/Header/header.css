@@ -1,0 +1,36 @@
+#logo{
+    font-size:2rem;
+    font-weight: 700;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-item{
+    font-size:1.4rem;
+    margin-left:1rem;
+    font-family: 'Fredoka', sans-serif;
+   
+}
+
+.phone{
+    color:black;
+}
+.phone-icon{
+ width:1.4rem;
+ height:1.4rem;
+ margin-left:1rem;
+}
+.search-btn{
+    width:300px;
+    height:35px;
+}
+.cart{
+    width:15px;
+    height:15px;
+    margin-left:1rem;
+}
+.nav-link{
+    margin-right:1.5rem;
+}

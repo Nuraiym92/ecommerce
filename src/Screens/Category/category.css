@@ -1,0 +1,28 @@
+.category{
+    background-color:#EEEEEE;
+    height:50rem;
+    
+}
+.category-items{
+    width:90%;
+    margin:0 auto;
+  
+}
+.category-title{
+    color:black;
+    font-size:2rem;
+    background-color: #66806A;
+  color:white;
+}
+
+.card-title:hover{
+    color: #9AD0EC;
+}
+.card-group{
+    margin-bottom:10rem;
+}
+.heading{
+    font-size:5rem;
+    text-align:center;
+}
+
