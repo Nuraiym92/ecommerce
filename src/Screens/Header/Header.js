@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import "./header.css"
 import Login from "../../Login.js"
 
-function Header() {
+function Header({setShow}) {
   
   return (
   
@@ -22,15 +22,15 @@ function Header() {
   <Nav.Link as={Link} className="nav-link"  to="/" >Главная</Nav.Link>
     
      <NavDropdown title="Каталог" id="navbarScrollingDropdown">
-      <NavDropdown.Item as={Link} to={"/girls"} className="navbar-item"  >Одежда для девочек</NavDropdown.Item>
-      <NavDropdown.Item as={Link} to={"/boys"} className="navbar-item">Одежда для мальчиков</NavDropdown.Item>
-      <NavDropdown.Item as={Link} to={"/baby"} className="navbar-item" >Одежда для малышей</NavDropdown.Item>
-      <NavDropdown.Item as={Link} to={"/toys"} className="navbar-item" >Игрушки</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/girls" className="navbar-item">Одежда для девочек</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/boys"className="navbar-item">Одежда для мальчиков</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/baby" className="navbar-item" >Одежда для малышей</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/toys" className="navbar-item" >Эко-Игрушки</NavDropdown.Item>
       
     
     </NavDropdown>
     <Nav.Link  ><img className="phone-icon" src="/images/phoneicon.svg"/><a class="phone" href="tel:+996-709694704">+996709694704</a></Nav.Link>
-    <Nav.Link as={Link} to={"/cart"}><img className="cart" src="/images/cart.svg"/> Корзина</Nav.Link>
+    <Nav.Link onclick={()=>setShow(false)} as={Link} to={"/cart"}><i class="fas fa-shopping-cart"/  > Корзина</Nav.Link>
 </Nav>
   <Form className="d-flex">
     <FormControl

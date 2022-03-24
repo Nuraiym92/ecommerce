@@ -14,7 +14,7 @@ function Hero(){
   <Carousel.Item >
     <h1>Сезонная распродажа для самых маленьких</h1>
  
-    <button onClick={event =>  window.location.href='/category'} className="btna hero-btn">Подробнее</button>
+    <button onClick={event =>  window.location.href='/baby'} className="btna hero-btn">Подробнее</button>
     <img
       className="d-block w-100"
       src="/images/carousel/c1.jpg"
@@ -41,7 +41,7 @@ function Hero(){
   </Carousel.Item>
   <Carousel.Item>
     <h1>Эко мягкие игрушки-сделано с любовью!</h1>
-    <button onClick={event =>  window.location.href='/ecotoys'} className="btna hero-btn">Подробнее</button>
+    <button onClick={event =>  window.location.href='/toys'} className="btna hero-btn">Подробнее</button>
     <img
       className="d-block w-100"
       src="/images/carousel/c3.jpg"

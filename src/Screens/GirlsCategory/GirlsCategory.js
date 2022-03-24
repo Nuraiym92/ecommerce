@@ -5,6 +5,9 @@ function GirlsCategory() {
     return (
         <>
   <h2 className="heading">Каталог</h2>
+  <div className='back-to-result'>
+  <Link to= "/">Back to result</Link>
+</div>
         <CardGroup className="card-group">
         <Card className="card">
           <Card.Img variant="top" src="./images/girls/category/dress.jpg" />

@@ -18,7 +18,7 @@ function Adverd() {
     <Card.Img className="adverd-img2"  src="./images/adverd/newborn.jpg" alt="Card image" />
     <Card.ImgOverlay>
       <Card.Title className="adverd-title title2">NewBorn</Card.Title>
-      <Button  onClick={event =>  window.location.href='/newborn'}className="btna  btn2" variant="light">Подробнее</Button> 
+      <Button  onClick={event =>  window.location.href='/baby'}className="btna  btn2" variant="light">Подробнее</Button> 
    
     </Card.ImgOverlay>
   </Card>

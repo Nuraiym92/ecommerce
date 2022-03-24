@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import Header from "../Header/Header"
 import Hero from "../Hero"
 import Category from '../Category/Category'
@@ -8,17 +8,25 @@ import Footer from '../Footer/Footer'
 import "./homescreen.css"
 import AdverdSlider from '../AdverdSilder/AdverdSlider'
 
-function HomeScreen() {
+
+
+const HomeScreen = () => {
+  
+
   return (
     <div className="app">
     
-    <Header/> 
-     <Hero/>
+     <Header /> 
+      <Hero/>
      <Stock/>
      <AdverdSlider/>
      <Category/>
      <Adverd/>
      <Footer/>
+     
+
+
+    
     </div>
    
   )

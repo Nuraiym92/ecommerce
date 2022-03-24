@@ -14,21 +14,19 @@ function GirlsJacket() {
    </div>
 <ul class="products">
  {
-  data.girlsJackets.map(jacket=>
+  data.girlsJackets.map(product=>
    <li>            
      <div className="product">
-           <Link to={'/jacket/'+jacket._id}>
-               <img src={jacket.image} class="product-image" alt=""/>
+           <Link to={'/product/'+product._id}>
+               <img src={product.image} class="product-image" alt=""/>
             </Link>
             
             
           <div className="product-name">     
-            <Link to={'/jacket/'+jacket._id}>{jacket.name}</Link>                 
+            <Link to={'/product/'+product._id}>{product.name}</Link>                 
              </div>
-             <div className="product-brand">{jacket.brand}</div>
-             <div className="product-price">{jacket.price}сом</div>
-             <div className="product-rating">{jacket.rating}</div>           
-             <div className="product-rating">{jacket.description}</div>           
+          <div className="product-price">{product.price}сом</div>
+                <button className="btna add-cart">Add to cart</button>    
               </div>
          </li>
     )

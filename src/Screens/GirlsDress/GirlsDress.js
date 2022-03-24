@@ -1,10 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import "./girlsdress.css"
 import {Link} from "react-router-dom"
 import data from '../../data'
 function GirlsDress() {
+ 
   return (
     <div>
 <Header/>
@@ -14,8 +15,10 @@ function GirlsDress() {
 <ul class="products">
  {
   data.products.map(product=>
+  
+    
    <li>            <div className="product">
-           <Link to={'/product/'+product._id}>
+           <Link to={'/product/'+product._id} >
                <img src={product.image} class="product-image" alt=""/>
             </Link>
             
@@ -23,10 +26,9 @@ function GirlsDress() {
           <div className="product-name">     
             <Link to={'/product/'+product._id}>{product.name}</Link>                 
              </div>
-             <div className="product-brand">{product.brand}</div>
              <div className="product-price">{product.price}сом</div>
-             <div className="product-rating">{product.rating}</div>           
-             <div className="product-rating">{product.description}</div>           
+               <div className="btna add-cart">Add to cart</div>   
+                  
               </div>
          </li>
     )

@@ -43,55 +43,56 @@ export default {
         image:"/images/girls/dress/crocheted.jpg",
         price:1500,
       
-        }
+        },
+        
     
 ],
-    girlsJackets:[
-        {
-        _id:'1',
-        name:"Стеганная куртка",
-        category:"dress",
-        image:"/images/girls/jackets/quilt-bomber.jpg",
-        price:"2600",
+girlsJackets:[
+  {
+    _id:'7',
+    name:"Стеганная куртка",
+    category:"dress",
+    image:"/images/girls/jackets/quilt-bomber.jpg",
+    price:"2600",
+
+   },
+    {
+    _id:'8',
+    name:"ДОЖДЕВИК",
+    category:"dress",
+    image:"/images/girls/jackets/raincoat.jpg",
+    price:3800,
+   
+    },
+    {
+     _id:'9',
+    name:"Тренч",
+    image:"/images/girls/jackets/trench.jpg",
+    price:5250,
   
-       },
-        {
-        _id:'2',
-        name:"ДОЖДЕВИК",
-        category:"dress",
-        image:"/images/girls/jackets/raincoat.jpg",
-        price:3800,
-       
-        },
-        {
-         _id:'3',
-        name:"Тренч",
-        image:"/images/girls/jackets/trench.jpg",
-        price:5250,
-      
-        },
-        {
-         _id:'4',
-        name:"РУБАШКА ИЗ ДЖИНСОВАЯ ",
-        image:"/images/girls/jackets/plainovershirt.jpg",
-        price:1450,
-      
-        },
-        {
-         _id:'5',
-        name:"ПУХОВОЕ ПАЛЬТО ",
-        image:"/images/girls/jackets/puffercoat.jpg",
-        price:6550,
-      
-        },
-        {
-         _id:'6',
-        name:"КУРТКА ИЗ ЭКОКОЖИ",
-        image:"/images/girls/jackets/leather.jpg",
-        price:5200,
-      
-        }
-    
-],
+    },
+    {
+     _id:'10',
+    name:"РУБАШКА ИЗ ДЖИНСОВАЯ ",
+    image:"/images/girls/jackets/plainovershirt.jpg",
+    price:1450,
+  
+    },
+    {
+     _id:'11',
+    name:"ПУХОВОЕ ПАЛЬТО ",
+    image:"/images/girls/jackets/puffercoat.jpg",
+    price:6550,
+  
+    },
+    {
+     _id:'12',
+    name:"КУРТКА ИЗ ЭКОКОЖИ",
+    image:"/images/girls/jackets/leather.jpg",
+    price:5200,
+  
+    }
+]
+
 
 }
