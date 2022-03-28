@@ -18,7 +18,7 @@ function GirlsJacket() {
    <li>            
      <div className="product">
            <Link to={'/product/'+product._id}>
-               <img src={product.image} class="product-image" alt=""/>
+               <img src={product.image} class="product-image" alt="product-image"/>
             </Link>
             
             
@@ -26,7 +26,7 @@ function GirlsJacket() {
             <Link to={'/product/'+product._id}>{product.name}</Link>                 
              </div>
           <div className="product-price">{product.price}сом</div>
-                <button className="btna add-cart">Add to cart</button>    
+                <button className="btna add-cart">Add to Cart</button>    
               </div>
          </li>
     )
