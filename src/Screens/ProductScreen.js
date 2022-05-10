@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import GirlsDress from './GirlsDress/GirlsDress';
 import Basket from "./Basket/Basket"
 
-function ProductScreen(props,{item,handleClick}) {
+function ProductScreen(props) {
 
 
     const  product=data.products.find(x=>x._id===props.match.params.id);
@@ -50,7 +50,7 @@ return <div >
          </select>
      </li>
      <li>
-      <button onClick={()=>handleClick(item)} className='button'>Add to cart</button>  
+      <button  className='button'>Add to cart</button>  
      </li>
     
    </ul>

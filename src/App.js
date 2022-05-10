@@ -25,7 +25,7 @@ import GirlsTshirt from './Screens/GirlsTshirt/GirlsTshirt';
 
 
 function App() {
-
+  
   return (
     <>
 
@@ -53,7 +53,7 @@ function App() {
        
             <Route path="/product/:id" exact="true"  component={ProductScreen}/> 
          
-            <Route path="/cart/:id?"  component={Cart}/> 
+            <Route path="/cart"  component={Cart}/> 
          
          <Route  path="/" exact='true' component={HomeScreen } />
   

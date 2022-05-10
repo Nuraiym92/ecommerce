@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import "./girlsdress.css"
 import {Link} from "react-router-dom"
 import data from '../../data'
+import Cart from "../Cart/Cart"
 function GirlsDress() {
  
   return (

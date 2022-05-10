@@ -26,7 +26,7 @@ function GirlsJacket() {
             <Link to={'/product/'+product._id}>{product.name}</Link>                 
              </div>
           <div className="product-price">{product.price}сом</div>
-                <button className="btna add-cart">Add to Cart</button>    
+                <button className="btna add-cart" onClick="addToCard">Add to Cart</button>    
               </div>
          </li>
     )
