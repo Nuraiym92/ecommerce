@@ -5,8 +5,8 @@ function Stock() {
 
     return(
         <div className="stock">
-       <div className="wrapper">
-       <div className="stock-item2">
+         <div className="wrapper">
+          <div className="stock-item2">
            <img src="/images/stock/1.jpg"/>      
             <h2 className="stock-title">Акции  игрушек</h2>
       <Link to="/toys" className='btna stock-btn2'>Купить</Link> 

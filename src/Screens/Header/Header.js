@@ -30,18 +30,18 @@ function Header({setShow}) {
     
     </NavDropdown>
     <Nav.Link  ><img className="phone-icon" src="/images/phoneicon.svg"/><a class="phone" href="tel:+996-709694704">+996709694704</a></Nav.Link>
-    <Nav.Link onclick={()=>setShow(false)} as={Link} to={"/cart"}><i class="fas fa-shopping-cart"/  > Корзина</Nav.Link>
+    {/* <Nav.Link onclick={()=>setShow(false)} as={Link} to={"/cart"}><i class="fas fa-shopping-cart"/  > Корзина</Nav.Link> */}
 </Nav>
-  <Form className="d-flex">
+  {/* <Form className="d-flex">
     <FormControl
       type="search"
       placeholder="Search"
       className="me-2 search-btn"
       aria-label="Search"
-    />
-    <Button variant="outline-success">Поиск</Button>
-  </Form>
-  <Nav.Link as={Link} className="nav-link"  to="/signin" >вход</Nav.Link>
+    /> */}
+    {/* <Button variant="outline-success">Поиск</Button> */}
+  {/* </Form> */}
+  {/* <Nav.Link as={Link} className="nav-link"  to="/signin" >вход</Nav.Link> */}
 </Navbar.Collapse>
 </Container>
 </Navbar>
